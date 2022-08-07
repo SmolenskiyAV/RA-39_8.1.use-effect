@@ -1,0 +1,14 @@
+/* Local Componet`s Styles */
+
+  .content {
+    margin: 50px;
+    display: flex;
+  }
+
+  .form_list {
+    width: 45%;
+  }
+  
+  .form_detail {
+    width: 45%;
+  }
