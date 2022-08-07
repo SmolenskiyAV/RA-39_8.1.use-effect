@@ -5,7 +5,6 @@ my-app/node_modules
 my-app/.pnp
 .pnp.js
 data
-assets
 
 # testing
 my-app/coverage
