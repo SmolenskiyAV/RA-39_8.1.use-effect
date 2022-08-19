@@ -32,7 +32,7 @@ export default function Form() {  // КОМПОНЕНТ Формы
     fetch(`https://raw.githubusercontent.com/netology-code/ra16-homeworks/master/hooks-context/use-effect/data/${id}.json`, {signal})
       .then((response) => response.json())
       .then((json) => setInfo(json));
-    
+      
     return () => {
       controller.abort();
     };

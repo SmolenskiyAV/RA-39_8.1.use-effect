@@ -18,6 +18,7 @@ export default function Details(props) {    // функция отрисовки
     position = details.position;
   };   
   console.dir('catched id: ', id); // КОНТРОЛЬНАЯ ТОЧКА
+  console.log('avatar:', avatar); // КОНТРОЛЬНАЯ ТОЧКА
   console.log('=====================================');
   
   return (
